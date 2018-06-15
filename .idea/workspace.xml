@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="21a8aba3-6edb-40c8-a582-c9f3154509f6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chain/geth/LOCK" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chain/geth/LOCK" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/chain/geth/chaindata/000008.ldb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/chain/geth/chaindata/000009.ldb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/chain/geth/chaindata/000010.log" beforeDir="false" />
@@ -11,14 +12,8 @@
       <change beforePath="$PROJECT_DIR$/bin/chain/geth/chaindata/MANIFEST-000011" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/chain/geth/transactions.rlp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chain/geth/transactions.rlp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/geth.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/geth.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/evm.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/evm.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/interpreter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/interpreter.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/logger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/golang/glog/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/golang/glog/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/golang/glog/glog.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/golang/glog/glog_file.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/golang/glog/glog_test.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,20 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="logger.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/logger.go">
+      <file leaf-file-name="interpreter.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/interpreter.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="163" column="14" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tx_pool.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/tx_pool.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="470" selection-start-line="470" selection-end-line="470" />
+            <state relative-caret-position="150">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
             </state>
           </provider>
         </entry>
@@ -53,7 +39,7 @@
       <file leaf-file-name="worker.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/miner/worker.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="56">
               <caret line="495" selection-start-line="495" selection-end-line="495" />
             </state>
           </provider>
@@ -62,62 +48,71 @@
       <file leaf-file-name="agent.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/miner/agent.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="56">
               <caret line="107" selection-start-line="107" selection-end-line="107" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tx_journal.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/tx_journal.go">
+      <file leaf-file-name="logger.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/logger.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="165" selection-start-line="165" selection-end-line="165" />
+            <state relative-caret-position="136">
+              <caret line="110" column="11" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blockchain.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/blockchain.go">
+      <file leaf-file-name="api.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/internal/ethapi/api.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="262" column="83" selection-start-line="262" selection-start-column="83" selection-end-line="262" selection-end-column="83" />
+            <state relative-caret-position="56">
+              <caret line="1183" selection-start-line="1183" selection-end-line="1183" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flags.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/cmd/utils/flags.go">
+      <file leaf-file-name="handler_go14.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/handler_go14.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="834" selection-start-line="834" selection-end-line="834" />
+            <state relative-caret-position="234">
+              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interpreter.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/interpreter.go">
+      <file leaf-file-name="handler.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/handler.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
+            <state relative-caret-position="180">
+              <caret line="295" column="34" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evm.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/evm.go">
+      <file leaf-file-name="format.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/format.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="350" column="1" selection-start-line="350" selection-start-column="1" selection-end-line="350" selection-end-column="1" />
+            <state relative-caret-position="720">
+              <caret line="225" column="22" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="miner.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/miner/miner.go">
+      <file leaf-file-name="root.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/root.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="206">
+              <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unconfirmed.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/miner/unconfirmed.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -147,14 +142,16 @@
       <find>run</find>
       <find>-alsologtostderr</find>
       <find>alsoToStderr</find>
-      <find>If non-empty</find>
+      <find />
       <find>Log</find>
-      <find>log</find>
       <find>Info</find>
+      <find>log</find>
+      <find>LOG15_ERROR</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Administrator\Desktop\go-ethereum1.8.10\src</dir>
       <dir>C:\Users\Administrator\Desktop\go-ethereum1.8.10\src\github.com\ethereum\go-ethereum\cmd\geth</dir>
+      <dir>D:\go-ethereum1.8.10\src\github.com\ethereum\go-ethereum\log</dir>
     </dirStrings>
   </component>
   <component name="GOROOT" path="C:\Go" />
@@ -191,9 +188,9 @@
         <option value="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/analysis_test.go" />
         <option value="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/cmd/geth/main.go" />
         <option value="$PROJECT_DIR$/src/github.com/golang/glog/glog.go" />
-        <option value="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/logger.go" />
-        <option value="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/interpreter.go" />
         <option value="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/evm.go" />
+        <option value="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/interpreter.go" />
+        <option value="$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/logger.go" />
       </list>
     </option>
   </component>
@@ -320,12 +317,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="D:/union_login" />
+    <property name="last_opened_file_path" value="D:/monitor" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
@@ -472,7 +470,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18963616" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -481,7 +478,7 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.38204592" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987715" visible="true" weight="0.27348644" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987715" visible="true" weight="0.20668058" />
       <window_info anchor="right" id="Structure" order="3" side_tool="true" visible="true" weight="0.24972437" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299389" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.3296582" />
@@ -500,52 +497,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add log file and line" />
+    <option name="LAST_COMMIT_MESSAGE" value="add log file and line" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/tx_list_test.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/analysis_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/memory_table.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/genesis_test.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/genesis_alloc.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/logger.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="226" column="37" selection-start-line="226" selection-start-column="37" selection-end-line="226" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/opcodes.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/int_pool_verifier_empty.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Go/src/math/big/int.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -688,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/root.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/syslog.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -726,31 +680,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/handler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/handler_go14.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Go/src/fmt/print.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="236" column="5" selection-start-line="236" selection-start-column="5" selection-end-line="236" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/format.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="138" selection-start-line="138" selection-end-line="139" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -768,55 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/logger.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="163" column="14" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/tx_journal.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/tx_pool.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="470" selection-start-line="470" selection-end-line="470" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/miner/miner.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/miner/worker.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="495" selection-start-line="495" selection-end-line="495" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/miner/agent.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/blockchain.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="262" column="83" selection-start-line="262" selection-start-column="83" selection-end-line="262" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/cmd/utils/flags.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -824,17 +708,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/interpreter.go">
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/blockchain.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="112">
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gopkg.in/olebedev/go-duktape.v3/duk_minimal_printf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="130" column="25" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/miner/miner.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/evm.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="350" column="1" selection-start-line="350" selection-start-column="1" selection-end-line="350" selection-end-column="1" />
+        <state relative-caret-position="193">
+          <caret line="352" column="52" selection-start-line="352" selection-start-column="52" selection-end-line="352" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/light/lightchain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="157" column="8" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/tx_pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13061">
+          <caret line="470" selection-start-line="470" selection-end-line="470" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/les/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="253" column="8" selection-start-line="253" selection-start-column="8" selection-end-line="253" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/tx_journal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/tx_list.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/types.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/signer/core/stdioui.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="90" column="16" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/root.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/handler_go14.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="295" column="34" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/format.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="225" column="22" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/log/logger.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="110" column="11" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/miner/unconfirmed.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/internal/ethapi/api.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="1183" selection-start-line="1183" selection-end-line="1183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/miner/worker.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="495" selection-start-line="495" selection-end-line="495" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/miner/agent.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ethereum/go-ethereum/core/vm/interpreter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>

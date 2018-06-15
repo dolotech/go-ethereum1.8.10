@@ -7,7 +7,6 @@ import (
 
 	"github.com/go-stack/stack"
 	"runtime"
-	"strings"
 )
 
 const timeKey = "t"
@@ -106,10 +105,10 @@ func (l *Record) header(depth int)  {
 		file = "???"
 		line = 1
 	} else {
-		slash := strings.LastIndex(file, "/")
-		if slash >= 0 {
-			file = file[slash+1:]
-		}
+		//slash := strings.LastIndex(file, "/")
+		//if slash >= 0 {
+		//	file = file[slash+1:]
+		//}
 	}
 
 	l.Msg= fmt.Sprintf("%v:%v %v ",file,line,l.Msg)
