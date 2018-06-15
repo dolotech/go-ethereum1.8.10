@@ -134,7 +134,7 @@ func (in *Interpreter) Run(contract *Contract, input []byte) (ret []byte, err er
 		gasCopy uint64 // for Tracer to log gas remaining before execution
 		logged  bool   // deferred Tracer should ignore already logged steps
 	)
-	log.Info("",input,len(input),string((input)))
+	log.Info("入参 ","input: ",input,"len: ",len(input))
 	contract.Input = input
 
 	if in.cfg.Debug {
