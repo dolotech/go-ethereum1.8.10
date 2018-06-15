@@ -6,6 +6,8 @@ import (
 	"time"
 
 	"github.com/go-stack/stack"
+	"runtime"
+	"strings"
 )
 
 const timeKey = "t"
@@ -93,6 +95,25 @@ type Record struct {
 	Ctx      []interface{}
 	Call     stack.Call
 	KeyNames RecordKeyNames
+
+
+}
+
+
+func (l *Record) header(depth int)  {
+	_, file, line, ok := runtime.Caller(3 + depth)
+	if !ok {
+		file = "???"
+		line = 1
+	} else {
+		slash := strings.LastIndex(file, "/")
+		if slash >= 0 {
+			file = file[slash+1:]
+		}
+	}
+
+	l.Msg= fmt.Sprintf("%v:%v %v ",file,line,l.Msg)
+
 }
 
 // RecordKeyNames gets stored in a Record when the write function is executed.
@@ -128,7 +149,7 @@ type logger struct {
 }
 
 func (l *logger) write(msg string, lvl Lvl, ctx []interface{}) {
-	l.h.Log(&Record{
+	r:= &Record{
 		Time: time.Now(),
 		Lvl:  lvl,
 		Msg:  msg,
@@ -139,7 +160,9 @@ func (l *logger) write(msg string, lvl Lvl, ctx []interface{}) {
 			Msg:  msgKey,
 			Lvl:  lvlKey,
 		},
-	})
+	}
+	r.header(0)
+	l.h.Log(r)
 }
 
 func (l *logger) New(ctx ...interface{}) Logger {

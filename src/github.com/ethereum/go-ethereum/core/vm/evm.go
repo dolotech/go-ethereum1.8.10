@@ -32,7 +32,7 @@ var emptyCodeHash = crypto.Keccak256Hash(nil)
 
 type (
 	CanTransferFunc func(StateDB, common.Address, *big.Int) bool
-	TransferFunc    func(StateDB, common.Address, common.Address, *big.Int)
+	TransferFunc func(StateDB, common.Address, common.Address, *big.Int)
 	// GetHashFunc returns the nth block hash in the blockchain
 	// and is used by the BLOCKHASH EVM op code.
 	GetHashFunc func(uint64) common.Hash
@@ -69,9 +69,9 @@ type Context struct {
 
 	// 用来提供Origin的信息 sender的地址
 	// Message information
-	Origin   common.Address // Provides information for ORIGIN
+	Origin common.Address // Provides information for ORIGIN
 	// 用来提供GasPrice信息
-	GasPrice *big.Int       // Provides information for GASPRICE
+	GasPrice *big.Int // Provides information for GASPRICE
 
 	// Block information
 	Coinbase    common.Address // Provides information for COINBASE
@@ -225,8 +225,8 @@ func (evm *EVM) Call(caller ContractRef, addr common.Address, input []byte, gas 
 	}
 	return ret, contract.Gas, err
 }
-//剩下的三个函数 CallCode, DelegateCall, 和 StaticCall，这三个函数不能由外部调用，只能由Opcode触发。
 
+//剩下的三个函数 CallCode, DelegateCall, 和 StaticCall，这三个函数不能由外部调用，只能由Opcode触发。
 
 // CallCode executes the contract associated with the addr with the given input
 // as parameters. It also handles any necessary value transfer required and takes
@@ -254,7 +254,7 @@ func (evm *EVM) CallCode(caller ContractRef, addr common.Address, input []byte, 
 	var (
 		snapshot = evm.StateDB.Snapshot()
 		//这里是最不同的地方 to的地址被修改为caller的地址了 而且没有转账的行为
-		to       = AccountRef(caller.Address())
+		to = AccountRef(caller.Address())
 	)
 	// initialise a new contract and set the code that is to be used by the
 	// EVM. The contract is a scoped environment for this execution context
@@ -352,7 +352,6 @@ func (evm *EVM) StaticCall(caller ContractRef, addr common.Address, input []byte
 
 // Create creates a new contract using code as deployment code.
 func (evm *EVM) Create(caller ContractRef, code []byte, gas uint64, value *big.Int) (ret []byte, contractAddr common.Address, leftOverGas uint64, err error) {
-
 	// Depth check execution. Fail if we're trying to execute above the
 	// limit.
 	if evm.depth > int(params.CallCreateDepth) {
@@ -397,7 +396,7 @@ func (evm *EVM) Create(caller ContractRef, code []byte, gas uint64, value *big.I
 	}
 	start := time.Now()
 
-	ret, err = run(evm, contract, nil)//执行合约的初始化代码
+	ret, err = run(evm, contract, nil) //执行合约的初始化代码
 
 	// check whether the max code size has been exceeded
 	// 检查初始化生成的代码的长度不超过限制
